@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".homesection.EcoBrickActivity">
+    <LinearLayout
+        android:padding="18dp"
+        android:background="@color/hijau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:orientation="horizontal"
+        android:id="@+id/up_content">
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi Aplikasi"/>
+    </LinearLayout>
+    <LinearLayout
+        app:layout_constraintTop_toBottomOf="@id/up_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Aplikasi Pemasaran Bata Ringan merupakan aplikasi yang menyediakan informasi terkait bata ringan dengan penerapan green concrete. Selain itu, terdapat juga informasi terkait ukuran dan harga serta contact person untuk melakukan pemesanan.\n\nAplikasi ini terdiri atas beberapa tampilan yaitu:\n1. Splash Screen\n2. OnBoarding\n3. Home and Product\n4.Detail Product"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
