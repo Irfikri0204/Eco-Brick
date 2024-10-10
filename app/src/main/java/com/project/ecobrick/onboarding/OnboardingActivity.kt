@@ -46,9 +46,9 @@ class OnboardingActivity : AppCompatActivity() {
     }
 
     private val pagerList = arrayListOf(
-        PageData("Bangun konstruksi dengan penerapan Green Concrete", R.drawable.onboarding3),
-        PageData("Menggunakan beton Precast  Green Concrete lebih efisien", R.drawable.onboarding3),
-        PageData("Mulailah menggunakan Precast Sloof yang mendukung penerapan Green Concrete bersama kami",R.drawable.onboarding3)
+        PageData("Bangun konstruksi dengan penerapan Green Concrete", R.drawable.onboarding1),
+        PageData("Memesan bata ringan lebih efisien", R.drawable.onboarding2),
+        PageData("Mulailah menggunakan bata ringan yang mendukung penerapan Green Concrete bersama kami",R.drawable.onboarding3)
     )
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
