@@ -13,6 +13,12 @@
         android:theme="@style/Theme.EcoBrick"
         tools:targetApi="31">
         <activity
+            android:name=".productsection.PengenalanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".productsection.DetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".homesection.TentangKamiActivity"
             android:exported="false" />
         <activity

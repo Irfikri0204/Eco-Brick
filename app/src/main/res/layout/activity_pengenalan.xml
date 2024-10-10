@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".productsection.PengenalanActivity">
+    <LinearLayout
+        android:padding="18dp"
+        android:background="@color/hijau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:orientation="horizontal"
+        android:id="@+id/up_content">
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            android:text="Pengenalan Produk"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="20dp"
+        app:layout_constraintTop_toBottomOf="@id/up_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan pembuatan bata ringan terdiri dari:\n
+- semen portland\n
+- Pasir\n
+- air\n
+- bahan tambahan lain"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:scaleType="centerCrop"
+                android:layout_height="180dp"
+                android:layout_marginEnd="10dp"
+                android:layout_width="180dp"
+                android:src="@drawable/pengenalan1"/>
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pengenalan2"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dibuat dengan menggunakan mesin pengaduk dan dicetak pada bekisting untuk dirawat selama 3 hari hingga kering.
+\n\n
+Jika tertarik melihat proses pembuatannya bisa dengan mengunjungi basecamp kami yang terletak di Perumahan Griya Tata Harapan, Kel. Tamangapa, Kec. Manggala, Kota Makassar."/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
